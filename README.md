@@ -13,6 +13,7 @@ In this sample run, we told it to crawl a website and retrieve two pages.  If yo
 RUN spdump.py
 ![Spdump](https://user-images.githubusercontent.com/87746876/126529846-0b595950-e846-4692-98c2-5c2f66ef3292.png)
 
+
 This shows the number of incoming links, the old page rank, the new page rank, the id of the page, and the url of the page.  The spdump.py program only shows pages that have at least one incoming link to them.
 
 Once you have a few pages in the database, you can run Page Rank on the pages using the sprank.py program.  You simply tell it how many Page Rank iterations to run.
@@ -33,6 +34,8 @@ If you want to visualize the current top pages in terms of page rank, run spjson
 
 RUN spjson.py
 ![spjson](https://user-images.githubusercontent.com/87746876/126530957-bca413c8-dbe3-4e30-8331-3616674b98e8.png)
+
+
 Open force.html in a browser to view the visualization
 
 You can view this data by opening the file force.html in your web browser.  
